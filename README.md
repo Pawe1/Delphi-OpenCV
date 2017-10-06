@@ -1,4 +1,4 @@
-#Delphi-OpenCV
+# Delphi-OpenCV
 * OpenCV version - 2.4.13.2<br>
 * Development environment - Delphi 2010-10.2<br>
 
@@ -7,7 +7,7 @@
  Laentir Valetov (email: laex@bk.ru)
  Mikhail Grigorev (email: sleuthhound@gmail.com)
 ```
-##Requirements:
+## Requirements:
 * Visual C++ Redistributable for Visual Studio 2015<br>
 Files: msvcp140.dll, msvcp140d.dll in "Delphi-OpenCV\redist\" or [here][2]
 ```
@@ -31,7 +31,7 @@ After installing OpenCV:
 (7) SDL.dll and SDL2.dll
 ```
 
-####Copy files
+#### Copy files
 <b>OS Windows 64-bit</b><br>
 ```
 Target platform 64-bit: (2),(4),(6) -> "C:\Windows\System32\"
@@ -42,7 +42,7 @@ Target platform 32-bit: (1),(3),(5),(7) -> "C:\Windows\SysWOW64\"
 Target platform 32-bit: (1),(3),(5),(7) -> "C:\Windows\System32\"
 ```
 
-##How to install:
+## How to install:
 Download the [archive][1].<br>
 Unzip it to a convenient directory, thus get the following directory structure<br>
 ```
@@ -72,6 +72,11 @@ To install the components, open and install
 <PROJECT_ROOT>\source\component\DelphiXX\dclVCLOpenCVXXX.dpk
 <PROJECT_ROOT>\source\component\DelphiXX\dclFMXOpenCVXXX.dpk
 ```
+
+## Miscellaneous
+You can install [Delphinus package manager](https://github.com/Memnarch/Delphinus/wiki/Installing-Delphinus) and then install our OpenCV package there. (Delphinus-Support)
+:warning: Install required libraries before package!
+
 Open in Delphi IDE and compile:<br>
 Examples of the use of certain functions and procedures 
 ```

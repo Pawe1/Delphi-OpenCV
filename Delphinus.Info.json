@@ -1,0 +1,11 @@
+{  
+   "id":"{342281EC-8E8F-40D6-ACC5-2652C3DDB7D4}",
+   "name":"OpenCV",
+   "license_type":"Mozilla Public License 1.1",
+   "license_file":"MPL-1.1.txt",
+   "platforms":"Win32;Win64",
+   "package_compiler_min":31,
+   "package_compiler_max":32,
+   "compiler_min":31,
+   "compiler_max":32
+}

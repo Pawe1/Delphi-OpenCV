@@ -1,0 +1,67 @@
+{
+  "search_pathes": [{
+    "pathes": "source;source\\utils;source\\component;source\\sdl;source\\opengl;source\\ffmpeg;resource\\facedetectxml",
+    "platforms": "Win32;Win64"
+  }],
+  "browsing_pathes": [{
+    "pathes": "source",
+    "platforms": "Win32;Win64"
+  }],
+  "source_folders": [{
+    "folder": "."
+  },
+  {
+    "folder": "bin",
+    "recursive": true
+  },
+  {
+    "folder": "redist",
+    "recursive": true
+  },
+  {
+    "folder": "resource",
+    "recursive": true
+  },
+  {
+    "folder": "samples",
+    "recursive": true
+  },
+  {
+    "folder": "source",
+    "recursive": true
+  }],
+  "projects":[
+    {
+      "project":"source\\component\\Delphi 10.1 Berlin\\dclCommonOpenCV240.dproj",
+      "compiler":31
+    },
+    {
+      "project":"source\\component\\Delphi 10.1 Berlin\\dclFFMSource240.dproj",
+      "compiler":31
+    },
+    {
+      "project":"source\\component\\Delphi 10.1 Berlin\\dclFMXOpenCV240.dproj",
+      "compiler":31
+    },
+    {
+      "project":"source\\component\\Delphi 10.1 Berlin\\dclVCLOpenCV240.dproj",
+      "compiler":31
+    },
+    {
+      "project":"source\\component\\Delphi 10.2 Tokyo\\dclCommonOpenCV250.dproj",
+      "compiler":32
+    },
+    {
+      "project":"source\\component\\Delphi 10.2 Tokyo\\dclFFMSource250.dproj",
+      "compiler":32
+    },
+    {
+      "project":"source\\component\\Delphi 10.2 Tokyo\\dclFMXOpenCV250.dproj",
+      "compiler":32
+    },
+    {
+      "project":"source\\component\\Delphi 10.2 Tokyo\\dclVCLOpenCV250.dproj",
+      "compiler":32
+    }
+  ]
+}
